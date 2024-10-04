@@ -95,7 +95,6 @@ public class Ejercicio4 {
         //System.out.println(h.getCantidadHabitaciones());
         System.out.println(h.toString());
         
-        //TODO: Reusar clase Persona
     }
     
 }
