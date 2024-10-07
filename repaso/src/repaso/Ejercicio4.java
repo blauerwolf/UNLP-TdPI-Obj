@@ -59,8 +59,7 @@ public class Ejercicio4 {
             ch.agregarCorista(new Corista(
                     // Nombre aleatorio de la lista de nombres
                     nombres[GeneradorAleatorio.generarInt(25)],                                    
-
-                    
+                   
                     // DNI aleatorio
                     GeneradorAleatorio.generarInt(10000),
                     
@@ -81,9 +80,7 @@ public class Ejercicio4 {
         System.out.println(ch.toString());
         System.out.println("El coro " + (ch.estaLleno() ? "ESTÁ" : "NO ESTÁ") + " lleno.");
         System.out.println("El coro " + (ch.estaBienFormado() ? "ESTÁ" : "NO ESTÁ") + " bien formado.");
-        System.out.println();
-        
-        
+        System.out.println();                
     }
     
 }
