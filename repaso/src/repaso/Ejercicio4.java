@@ -74,10 +74,12 @@ public class Ejercicio4 {
         }
         
         System.out.println(cs.toString());
+        System.out.println("El coro " + (cs.estaLleno() ? "ESTÁ" : "NO ESTÁ") + " lleno.");
         System.out.println("El coro " + (cs.estaBienFormado() ? "ESTÁ" : "NO ESTÁ") + " bien formado.");
         System.out.println();
         
         System.out.println(ch.toString());
+        System.out.println("El coro " + (ch.estaLleno() ? "ESTÁ" : "NO ESTÁ") + " lleno.");
         System.out.println("El coro " + (ch.estaBienFormado() ? "ESTÁ" : "NO ESTÁ") + " bien formado.");
         System.out.println();
         
